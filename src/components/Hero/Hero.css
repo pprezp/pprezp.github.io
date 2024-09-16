@@ -8,10 +8,9 @@
 }
 
 @media (max-width: 767px) {
-  .hero-section {
-    margin-top: 0px;
+  .hero-section > .container{
+    margin-top: 56px;
   }
-
   .skills-content {
     margin-bottom: 20px;
   }
