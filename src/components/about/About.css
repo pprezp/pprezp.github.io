@@ -2,12 +2,13 @@
     min-height: 100vh;
     background: linear-gradient(135deg, #1e3c72, #2a5298, #4a90e2);
     color: white;
-    overflow-x: hidden; /* Evita el scroll horizontal */
+    overflow-x: hidden; 
+    flex-direction: column;
   }
   
   .full-width-image {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
   }
   

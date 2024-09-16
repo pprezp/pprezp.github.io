@@ -1,7 +1,20 @@
 .hero-section {
-  min-height: 94vh;
-  background: linear-gradient(135deg, #1e3c72, #2a5298, #4a90e2);
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(30, 60, 114, 0.7), rgba(42, 82, 152, 0.7), rgba(74, 144, 226, 0.7)), url('/hero_background.jpg');
+  background-size: cover;
+  background-position: center;
   color: white;
+  margin-top: -56px;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    margin-top: 0px;
+  }
+
+  .skills-content {
+    margin-bottom: 20px;
+  }
 }
 
 .hero-section .btn-primary {
@@ -22,6 +35,6 @@
   color: #4a90e2;
 }
 
-#hero-img{
+#hero-img {
   border-radius: 100%;
 }

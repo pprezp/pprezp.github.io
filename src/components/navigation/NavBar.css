@@ -1,6 +1,17 @@
+/* NavBar.css */
 .navbar {
-    background: linear-gradient(135deg, #1e3c72, #2a5298, #4a90e2);
-  }
+  z-index: 1000;
+  transition: background-color 0.5s ease;
+}
+
+.navbar.transparent {
+  background-color: transparent;
+}
+
+.navbar.opaque {
+  background-color: rgba(30, 60, 114, 1); /* Color sólido */
+}
+
   
   .navbar-brand {
     color: white;

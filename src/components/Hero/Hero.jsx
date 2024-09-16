@@ -1,4 +1,3 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 import TwitterIcon from '../icons/Twitter';
 import './Hero.css'
 import hero from "/hero.jpeg"

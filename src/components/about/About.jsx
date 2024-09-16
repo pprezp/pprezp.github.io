@@ -13,7 +13,7 @@ const About = () => {
             />
           </div>
           <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-md-left mb-4 mb-md-0">
-            <div className="about-content p-4" style={{ maxWidth: "90%" }}>
+            <div className="about-content p-4" style={{ maxWidth: "90%", marginTop:"56px" }}>
               <h2 className="text-white font-weight-bold">Sobre mí</h2>
               <p className="lead text-white font-italic" style={{textAlign:"justify"}}>
                 ¡Hola! Soy Pablo, un apasionado desarrollador de software con
