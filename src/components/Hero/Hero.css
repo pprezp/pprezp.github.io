@@ -1,5 +1,5 @@
 .hero-section {
-  min-height: 110vh;
+  min-height: 94vh;
   background: linear-gradient(135deg, #1e3c72, #2a5298, #4a90e2);
   color: white;
 }
@@ -20,4 +20,8 @@
 
 .hero-section .social-icons a:hover {
   color: #4a90e2;
+}
+
+#hero-img{
+  border-radius: 100%;
 }

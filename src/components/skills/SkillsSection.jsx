@@ -1,5 +1,5 @@
 import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
-import './SkillsSection.css'; // Asegúrate de crear este archivo CSS para estilos personalizados
+import './SkillsSection.css'; 
 
 const SkillsSection = () => {
   return (
@@ -9,8 +9,8 @@ const SkillsSection = () => {
           <Col xs={12} className="text-center mb-5">
             <h2 className="text-white font-weight-bold">Mis Habilidades</h2>
           </Col>
-          <Col md={6} className="mb-4 mb-md-0">
-            <div className="skills-content p-4">
+          <Col md={6} className="mb-4 mb-md-0 d-flex justify-content-center">
+            <div className="skills-content p-4" style={{minWidth:"95%"}}>
               <h3 className="text-white font-weight-bold">Hard Skills</h3>
               <ul className="list-unstyled text-white">
                 <li className="mb-3">
@@ -36,8 +36,8 @@ const SkillsSection = () => {
               </ul>
             </div>
           </Col>
-          <Col md={6}>
-            <div className="skills-content p-4">
+          <Col md={6} className='d-flex justify-content-center'>
+            <div className="skills-content p-4" style={{minWidth:"95%"}}>
               <h3 className="text-white font-weight-bold">Soft Skills</h3>
               <ul className="list-unstyled text-white">
                 <li>Comunicación Efectiva</li>

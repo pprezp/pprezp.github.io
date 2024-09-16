@@ -1,6 +1,10 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
-import './Footer.css'; // Asegúrate de crear este archivo CSS para estilos personalizados
+import './Footer.css'; 
+import TwitterIcon from '../icons/Twitter';
+import FaceIcon from '../icons/Facebook';
+import LinkedinIcon from '../icons/Linkedin';
+import GithubIcon from '../icons/Github';
 
 const Footer = () => {
   return (
@@ -23,10 +27,10 @@ const Footer = () => {
           <Col md={4} className="text-center text-md-right">
             <h5>Sígueme</h5>
             <div className="social-icons">
-              <a href="https://facebook.com" className="text-white mx-2"><FaFacebook size={30} /></a>
-              <a href="https://twitter.com" className="text-white mx-2"><FaTwitter size={30} /></a>
-              <a href="https://linkedin.com" className="text-white mx-2"><FaLinkedin size={30} /></a>
-              <a href="https://github.com" className="text-white mx-2"><FaGithub size={30} /></a>
+              <FaceIcon/>
+              <TwitterIcon/>
+              <LinkedinIcon/>
+              <GithubIcon/>
             </div>
           </Col>
         </Row>
