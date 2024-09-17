@@ -36,7 +36,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col className="text-center py-3">
-            <p className="mb-0">© {new Date().getFullYear()} pprezp. Todos los derechos reservados.</p>
+            <p className="mb-0">© {new Date().getFullYear()} Pablo P&eacute;rez. Todos los derechos reservados.</p>
           </Col>
         </Row>
       </Container>

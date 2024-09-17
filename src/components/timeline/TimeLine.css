@@ -1,0 +1,116 @@
+.timeline-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #4a90e2);
+  color: white;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.timeline {
+  margin-top: 56px;
+  padding: 40px 0;
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.timeline-left {
+  justify-content: flex-end;
+}
+
+.timeline-right {
+  justify-content: flex-start;
+}
+
+.timeline-card {
+  width: 80%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  border: 1px dashed #ccc; /* Línea punteada */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.timeline-card:hover {
+  transform: scale(1.05);
+}
+
+.timeline-description {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.timeline-card:hover .timeline-description {
+  opacity: 1;
+}
+
+.timeline-info {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .timeline-left > .timeline-info > .timeline-card::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px; /* Ajusta este valor según sea necesario */
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+  .timeline-right > .timeline-info > .timeline-card::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px; /* Ajusta este valor según sea necesario */
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 190px;
+    height: 815px;
+    bottom: 0;
+    width: 4px;
+    background: #4a90e2;
+    transform: translateX(-50%);
+  }
+  .timeline-item .timeline-empty {
+    display: block;
+  }
+
+  .timeline-left {
+    justify-content: flex-end;
+  }
+
+  .timeline-right {
+    justify-content: flex-start;
+  }
+
+  .timeline-card-body {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .timeline-left .timeline-card-body {
+    align-items: flex-end;
+    text-align: right;
+  }
+}

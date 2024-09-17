@@ -3,7 +3,7 @@ import about from "/about.jpeg";
 const About = () => {
   return (
     <section id="about" className="about-section d-flex align-items-center ">
-      <div className="ccontainer-fluid p-0">
+      <div className="container-fluid p-0">
         <div className="row no-gutters">
           <div className="col-lg-6 mb-4 mb-md-0">
             <img

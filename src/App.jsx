@@ -10,6 +10,7 @@ import About from './components/about/About';
 import ScrollSpy from './components/utils/ScrollSpy';
 import SkillsSection from './components/skills/SkillsSection';
 import Footer from './components/Footer/Footer';
+import TimeLine from './components/timeline/Timeline';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <About/>
+      <TimeLine/>
       <SkillsSection/>
       <Footer/>
     </> 

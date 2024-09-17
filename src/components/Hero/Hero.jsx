@@ -15,7 +15,7 @@ function Hero(params) {
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center text-center text-md-left mb-4 mb-md-0 mt-4 mt-md-0">
           <h1 className="display-4 text-white font-weight-bold">¡Hola! Soy Pablo P&eacute;rez</h1>
-          <p className="lead text-white font-italic">Desarrollador | Analista en Sistemas | Maestro Pok&eacute;mon</p>
+          <p className="lead text-white font-italic">Desarrollador Java | Analista en Sistemas | Maestro Pok&eacute;mon</p>
           <a href="#about" className="btn btn-primary btn-lg mb-3">¡Conoceme!</a>
           <div className="social-icons d-flex justify-content-center justify-content-md-center">
             <FaceIcon/>
